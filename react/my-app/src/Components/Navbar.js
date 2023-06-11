@@ -14,6 +14,9 @@ export default function Navbar(props) {
       <li classNameName="nav-item active">
         <a className="nav-link" href="my-app\src\form.js">Home <span className="sr-only">(current)</span></a>
       </li>
+      <li classNameName="nav-item active">
+        <a className="nav-link" href="my-app\src\form.js">About  Textify <span className="sr-only">(current)</span></a>
+      </li>
       <li className="nav-item">
         <a className="nav-link" href="#">{props.aboutText}</a>
       </li>
